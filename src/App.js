@@ -9,7 +9,9 @@ useEffect(() =>setJobs(data), []);
 
   return (
     <div className="App">
-      <h1 className='text-4xl'>Hello Popper</h1>
+      <header>
+        <img src="/images/bg-header-desktop.svg" alt="bg-img"/>
+      </header>
       {jobs.length === 0 ? (
           <p>Jobs are fechting...</p>
         ) : (
